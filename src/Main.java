@@ -24,5 +24,7 @@ public class Main {
         System.out.println("danDan.getTitle() = " + danDan.getTitle());
         System.out.println("danDan.getYear() = " + danDan.getYear());
         System.out.println("danDan.getAuthor() = " + danDan.getAuthor().getName()+" "+ danDan.getAuthor().getLastName());
+
+        System.out.println(Moon.equals(Kate));
     }
 }
